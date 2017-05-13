@@ -1,0 +1,34 @@
+[INFO ] 2017-04-27 22:00:19,001(0) --> core.ServerInit.main(ServerInit.java:14): 业务处理服务器正在启动...  
+[INFO ] 2017-04-27 22:00:19,079(78) --> net.BusinessModule.init(BusinessModule.java:56): 业务处理服务器开启成功  
+[INFO ] 2017-04-27 22:00:19,079(78) --> core.ServerInit.main(ServerInit.java:16): 画面传输服务器正在启动...  
+[INFO ] 2017-04-27 22:00:19,095(94) --> net.ScreenModule.init(ScreenModule.java:46): 画面传输服务器开启成功  
+[INFO ] 2017-04-27 22:00:25,666(6665) --> org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186): CREATED  
+[INFO ] 2017-04-27 22:00:25,669(6668) --> org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186): OPENED  
+[INFO ] 2017-04-27 22:00:28,361(9360) --> org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157): RECEIVED: HeapBuffer[pos=0 lim=127 cap=4096: 7B 22 70 61 73 73 77 6F 72 64 22 3A 22 31 32 33...]  
+[INFO ] 2017-04-27 22:00:28,436(9435) --> net.BusinessHandler.messageReceived(BusinessHandler.java:57): 收到消息,消息类型:login,消息:{"password":"123","msgType":"login","controlType":"controlled","os":"Windows 8.1","width":1920,"username":"123","height":1080}  
+[INFO ] 2017-04-27 22:00:29,070(10069) --> manager.LoginManager.handle(LoginManager.java:95): 回复消息:{"loginresult":"loginsuccess","tempid":"13955235245b2497","msgType":"loginresult","password":"123"}  
+[INFO ] 2017-04-27 22:00:29,071(10070) --> org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157): SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]  
+[INFO ] 2017-04-27 22:00:29,072(10071) --> org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157): SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]  
+[INFO ] 2017-04-27 22:00:36,025(17024) --> org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186): CREATED  
+[INFO ] 2017-04-27 22:00:36,025(17024) --> org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186): OPENED  
+[INFO ] 2017-04-27 22:00:38,566(19565) --> org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157): RECEIVED: HeapBuffer[pos=0 lim=81 cap=4096: 7B 22 70 61 73 73 77 6F 72 64 22 3A 22 31 32 33...]  
+[INFO ] 2017-04-27 22:00:38,567(19566) --> net.BusinessHandler.messageReceived(BusinessHandler.java:57): 收到消息,消息类型:login,消息:{"password":"123","msgType":"login","controlType":"controller","username":"123"}  
+[INFO ] 2017-04-27 22:00:38,575(19574) --> manager.LoginManager.handle(LoginManager.java:95): 回复消息:{"loginresult":"loginsuccess","tempid":"13955235245b2497","controlled":{"os":"Windows 8.1","height":1080,"width":1920,"devip":"/127.0.0.1:50629"},"msgType":"loginresult","password":"123"}  
+[INFO ] 2017-04-27 22:00:38,577(19576) --> org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157): SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]  
+[INFO ] 2017-04-27 22:00:38,577(19576) --> org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157): SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]  
+[INFO ] 2017-04-27 22:00:40,142(21141) --> org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157): RECEIVED: HeapBuffer[pos=0 lim=68 cap=4096: 7B 22 6D 73 67 54 79 70 65 22 3A 22 6D 6F 6E 69...]  
+[INFO ] 2017-04-27 22:00:40,143(21142) --> net.BusinessHandler.messageReceived(BusinessHandler.java:57): 收到消息,消息类型:monitor,消息:{"msgType":"monitor","tempid":"13955235245b2497","command":"start"}  
+[INFO ] 2017-04-27 22:00:40,144(21143) --> org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157): SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]  
+[INFO ] 2017-04-27 22:00:40,144(21143) --> org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157): SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]  
+[INFO ] 2017-04-27 22:00:40,182(21181) --> net.ScreenHandler.messageReceived(ScreenHandler.java:68): 接受到认证消息:[type:1,tempid:13955235245b2497]  
+[INFO ] 2017-04-27 22:00:40,183(21182) --> net.ScreenHandler.messageReceived(ScreenHandler.java:68): 接受到认证消息:[type:1,tempid:13955235245b2497]  
+[INFO ] 2017-04-27 22:00:40,212(21211) --> net.ScreenHandler.messageReceived(ScreenHandler.java:68): 接受到认证消息:[type:0,tempid:13955235245b2497]  
+[INFO ] 2017-04-27 22:00:40,214(21213) --> net.ScreenHandler.messageReceived(ScreenHandler.java:68): 接受到认证消息:[type:0,tempid:13955235245b2497]  
+[INFO ] 2017-04-27 22:00:43,587(24586) --> net.ScreenHandler.messageReceived(ScreenHandler.java:68): 接受到认证消息:[type:0,tempid:13955235245b2497]  
+[INFO ] 2017-04-27 22:01:16,559(57558) --> org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186): CLOSED  
+[INFO ] 2017-04-27 22:01:16,559(57558) --> net.ScreenHandler.sessionClosed(ScreenHandler.java:36): /127.0.0.1:50659断开画面传输服务  
+[INFO ] 2017-04-27 22:01:16,559(57558) --> net.BusinessHandler.sessionClosed(BusinessHandler.java:103): /127.0.0.1:50643断开业务服务  
+[INFO ] 2017-04-27 22:01:16,800(57799) --> net.ScreenHandler.messageReceived(ScreenHandler.java:56): 控制端连接断开  
+[INFO ] 2017-04-27 22:01:19,687(60686) --> org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186): CLOSED  
+[INFO ] 2017-04-27 22:01:19,687(60686) --> net.ScreenHandler.sessionClosed(ScreenHandler.java:36): /127.0.0.1:50672断开画面传输服务  
+[INFO ] 2017-04-27 22:01:19,687(60686) --> net.BusinessHandler.sessionClosed(BusinessHandler.java:103): /127.0.0.1:50629断开业务服务  
