@@ -93,6 +93,6 @@ public class BusinessHandler extends IoHandlerAdapter {
 	@Override
 	public void exceptionCaught(IoSession session, Throwable cause)
 			throws Exception {
-		super.exceptionCaught(session, cause);
+		logger.info(session.getRemoteAddress() + "断开业务连接");
 	}
 }

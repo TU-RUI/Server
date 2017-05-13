@@ -107,8 +107,7 @@ public class ScreenHandler extends IoHandlerAdapter {
 	@Override
 	public void sessionOpened(IoSession session) throws Exception {
 		// TODO Auto-generated method stub
-		super.sessionOpened(session);
-
+		logger.info(session.getRemoteAddress() +"断开视频连接");
 	}
 
 }
