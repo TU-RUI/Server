@@ -57,17 +57,10 @@ public class MsgType {
 	//图片数据
 	public static final String SCREEN = "screen";
 	
-	//滚轮
-	public static final String SCROLLUP = "scrollup";
-	public static final String SCROLLDOWN = "scrolldown";
-	
 	
 	//通知信息
 	public static final String NOTIFICATION = "notification";
 	
 	//未知异常
 	public static final String EXCEPTION = "exception";
-
-	
-	
 }
